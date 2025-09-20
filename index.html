@@ -1,109 +1,52 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Blends by You Co.</title>
-  <meta name="description" content="Blends by You Co. - Your Taste, Your Blend. Fresh, customizable juices." />
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blends by You Co.</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="#">
-        <!-- simple inline SVG logo -->
-        <svg width="44" height="44" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <circle cx="32" cy="32" r="30" fill="#F48C06"/>
-          <path d="M22 34c2-6 12-8 16-4" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
-          <path d="M44 16c2 2 2 6 0 8" stroke="#74B816" stroke-width="3" fill="none" stroke-linecap="round"/>
-        </svg>
-        <span class="brand">Blends by You</span>
-      </a>
-
-      <nav class="nav">
-        <a href="#menu">Menu</a>
-        <a href="#about">About</a>
-        <a href="#order">Order</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <a class="btn btn-primary" href="#order">Order Now</a>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <h1>Your Taste, <br/>Your Blend.</h1>
-        <p class="lead">Customize your fresh juice. Healthy, vibrant, and made just for you.</p>
-        <div class="hero-ctas">
-          <a class="btn btn-primary" href="#order">Order Now</a>
-          <a class="btn btn-ghost" href="#menu">Explore Menu</a>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Blends by You Co.</h1>
+            <p>Fresh, Delicious, and 100% Natural</p>
+            <a href="#menu" class="btn">Explore Menu</a>
         </div>
-      </div>
+    </header>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>At Blends by You Co., we craft fresh, delicious fruit juices made from 100% natural ingredients.
+        Our mission is to bring you healthy, flavorful blends that refresh and energize you.</p>
     </section>
 
-    <section id="menu" class="section container">
-      <h2 class="section-title">Signature Juices</h2>
-      <div class="cards">
-        <article class="card">
-          <div class="card-media juice juice-red" aria-hidden="true"></div>
-          <h3>Strawberry Sunshine</h3>
-          <p>Fresh strawberry & mango blend.</p>
-          <a class="btn small" href="#order">Order Now</a>
-        </article>
-
-        <article class="card">
-          <div class="card-media juice juice-orange" aria-hidden="true"></div>
-          <h3>Citrus Energy</h3>
-          <p>Orange, pineapple & ginger.</p>
-          <a class="btn small" href="#order">Order Now</a>
-        </article>
-
-        <article class="card">
-          <div class="card-media juice juice-green" aria-hidden="true"></div>
-          <h3>Tropical Green</h3>
-          <p>Kale, spinach, pineapple, banana.</p>
-          <a class="btn small" href="#order">Order Now</a>
-        </article>
-      </div>
-    </section>
-
-    <section id="about" class="section about container">
-      <div class="about-grid">
-        <div class="about-media">
-          <img src="assets/juice-pitcher.png" alt="Pitcher of juice" />
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item"><h3>Sunburst Glow</h3><p>Mango, pineapple & ginger – tropical and energizing</p><span>KES 150</span></div>
+            <div class="menu-item"><h3>Green Vibe</h3><p>Spinach, apple & kiwi – refreshing detox blend</p><span>KES 130</span></div>
+            <div class="menu-item"><h3>Berry Boost</h3><p>Strawberry, banana & beetroot – sweet with a vitamin kick</p><span>KES 160</span></div>
+            <div class="menu-item"><h3>Zesty Zen</h3><p>Orange, lemon & mint – citrusy and calming</p><span>KES 120</span></div>
+            <div class="menu-item"><h3>Purple Power</h3><p>Grapes, blueberries & chia – antioxidant-rich and smooth</p><span>KES 180</span></div>
+            <div class="menu-item"><h3>Tropical Twist</h3><p>Passion fruit, watermelon & lime – juicy and tangy</p><span>KES 140</span></div>
+            <div class="menu-item"><h3>Spice Rush</h3><p>Carrot, orange & cayenne – bold and immune-boosting</p><span>KES 130</span></div>
+            <div class="menu-item"><h3>Avocado Dream</h3><p>Avocado, banana & honey – creamy and filling</p><span>KES 170</span></div>
+            <div class="menu-item"><h3>Uji Fusion</h3><p>Banana, oats & cinnamon – breakfast-style smoothie</p><span>KES 150</span></div>
+            <div class="menu-item"><h3>Classic Blend</h3><p>Seasonal fruits mix – budget-friendly and always fresh</p><span>KES 100</span></div>
         </div>
-        <div class="about-content">
-          <h2>Crafting blends that match your unique taste</h2>
-          <p>At Blends by You Co., we believe everyone deserves a fresh, healthy and personalized drink. Our mission is to craft blends that match your unique taste — you choose the fruits, we blend them fresh.</p>
-          <p><strong>Made fresh • Locally sourced • Customizable</strong></p>
-        </div>
-      </div>
     </section>
 
-    <section id="order" class="cta container">
-      <h2>Start your journey to fresher, healthier drinks today!</h2>
-      <a class="btn btn-primary large" href="#contact">Order Now</a>
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Prefer to talk? Call or WhatsApp us at <a href="tel:+254748268795">+254 748 268795</a></p>
+        <p>Email: <a href="mailto:blendbyyou020@gmail.com">blendbyyou020@gmail.com</a></p>
+        <a href="tel:+254748268795" class="btn">Call to Order</a>
     </section>
 
-    <section id="contact" class="section container contact">
-      <h2>Contact</h2>
-      <p>Phone: <a href="tel:+254700000000">+254 700 000 000</a></p>
-      <p>Email: <a href="mailto:hello@blendsbyyou.example">hello@blendsbyyou.example</a></p>
-      <p>Location: Nairobi (replace with your full address)</p>
-      <div class="social">
-        <a href="#" aria-label="Instagram">Instagram</a> • <a href="#" aria-label="Facebook">Facebook</a> • <a href="#" aria-label="TikTok">TikTok</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; Blends by You Co. — Your Taste, Your Blend.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 Blends by You Co. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
