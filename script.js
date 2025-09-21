@@ -1,7 +1,10 @@
 
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click', function(e){
-    const target = document.querySelector(this.getAttribute('href'));
-    if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); }
+document.addEventListener('DOMContentLoaded', function() {
+  const links = document.querySelectorAll('a[href^="#"]');
+  links.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+    });
   });
 });

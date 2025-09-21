@@ -1,58 +1,23 @@
 
-:root{
-  --orange: #ff6600;
-  --green: #4caf50;
-  --char: #333333;
-  --muted: #f6f6f6;
-  --max-width: 1100px;
-}
-*{box-sizing:border-box}
-body{margin:0;font-family:Inter, system-ui, -apple-system, "Helvetica Neue", Arial;color:var(--char);background:white;}
-.container{max-width:var(--max-width);margin:0 auto;padding:0 20px;}
-.site-header{border-bottom:1px solid #eee;background:white;position:sticky;top:0;z-index:10;}
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 0;}
-.logo-img{height:48px;}
-.nav{display:flex;gap:18px;align-items:center}
-.nav a{color:var(--char);text-decoration:none;font-weight:600}
-.btn{display:inline-block;text-decoration:none;padding:10px 16px;border-radius:28px;font-weight:600;text-align:center}
-.btn-primary{background:var(--orange);color:white}
-.btn-ghost{background:transparent;color:var(--green);border:2px solid rgba(116,184,22,0.12);padding:9px 16px}
-.hero{position:relative;text-align:left}
-.hero-img{width:100%;height:auto;display:block}
-.hero-overlay{position:absolute;left:50px;top:80px;color:#222;max-width:480px}
-.hero-overlay h1{font-size:40px;margin:0 0 8px}
-.lead{color:#555;margin:8px 0 18px;font-size:16px}
-.hero-ctas{display:flex;gap:12px;margin-top:10px}
-.section{padding:48px 0}
-.section-title{text-align:center;font-size:28px;margin-bottom:24px}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:start}
-.card{background:#fff;border-radius:12px;padding:12px;box-shadow:0 6px 18px rgba(0,0,0,0.06);text-align:center}
-.card-img{width:100%;height:220px;object-fit:cover;border-radius:8px;margin-bottom:12px;background:#fafafa}
-.card h3{margin:6px 0;font-size:18px;color:var(--orange)}
-.card p{color:#666;font-size:14px;margin-bottom:12px}
-.card-footer{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.price{font-weight:700;color:var(--green)}
-.small{padding:8px 12px;border-radius:20px;font-size:14px}
-.about p{text-align:center;max-width:760px;margin:0 auto;color:#444}
-.site-footer{border-top:1px solid #eee;padding:18px 0;text-align:center;color:#777;font-size:14px;margin-top:30px}
+body { margin: 0; font-family: Arial, sans-serif; background: #fffaf3; color: #333; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background: #ff9f43; }
+header .logo img { height: 50px; }
+header nav a { margin: 0 15px; text-decoration: none; color: white; font-weight: bold; }
+header .cta { background: #27ae60; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
 
-/* WhatsApp button */
-.whatsapp-btn{
-  position:fixed;
-  right:18px;
-  bottom:18px;
-  background:#25D366;
-  width:56px;
-  height:56px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  box-shadow:0 6px 18px rgba(0,0,0,0.12);
-  z-index:9999;
-  text-decoration:none;
-}
+.hero { display: flex; justify-content: space-between; align-items: center; padding: 40px; background: #fff5e6; }
+.hero-content h1 { font-size: 48px; color: #ff6f00; }
+.hero-content p { font-size: 18px; margin: 10px 0; }
+.hero-content .btn { padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px; }
+.hero-content .orange { background: #ff9f43; color: white; }
+.hero-content .green { background: #27ae60; color: white; }
+.hero-image img { max-width: 400px; }
 
-/* Responsive */
-@media (max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.hero-overlay{left:30px;top:40px} .hero-overlay h1{font-size:32px}}
-@media (max-width:600px){.cards{grid-template-columns:1fr}.nav{display:none}.header-inner{gap:12px}.logo-img{height:40px}.hero-overlay{position:static;padding:18px;text-align:center}.hero-img{height:220px;object-fit:cover}}
+.menu { padding: 40px; background: #fffaf3; }
+.menu h2 { text-align: center; margin-bottom: 20px; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.menu-grid .card { background: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.menu-grid .card img { max-width: 100px; margin-bottom: 10px; }
+
+.about, .contact { padding: 40px; text-align: center; }
+footer { background: #ff9f43; text-align: center; padding: 20px; color: white; }
