@@ -1,52 +1,144 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blends by You Co.</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blends by You Co.</title>
+  <meta name="description" content="Blends by You Co. - Your Taste, Your Blend." />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Blends by You Co.</h1>
-            <p>Fresh, Delicious, and 100% Natural</p>
-            <a href="#menu" class="btn">Explore Menu</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <img src="assets/logo.svg" alt="Blends by You logo" class="logo-img" />
+      </a>
+      <nav class="nav">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary" href="tel:+254748268795">Call to Order</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="assets/hero.svg" alt="Hero" class="hero-img"/>
+      <div class="hero-overlay">
+        <h1>Your Taste, Your Blend.</h1>
+        <p class="lead">Customize your fresh juice. Healthy, vibrant, and made just for you.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#menu">Explore Menu</a>
+          <a class="btn btn-ghost" href="tel:+254748268795">Call Now</a>
         </div>
-    </header>
-
-    <section class="about" id="about">
-        <h2>About Us</h2>
-        <p>At Blends by You Co., we craft fresh, delicious fruit juices made from 100% natural ingredients.
-        Our mission is to bring you healthy, flavorful blends that refresh and energize you.</p>
+      </div>
     </section>
 
-    <section class="menu" id="menu">
-        <h2>Our Menu</h2>
-        <div class="menu-grid">
-            <div class="menu-item"><h3>Sunburst Glow</h3><p>Mango, pineapple & ginger – tropical and energizing</p><span>KES 150</span></div>
-            <div class="menu-item"><h3>Green Vibe</h3><p>Spinach, apple & kiwi – refreshing detox blend</p><span>KES 130</span></div>
-            <div class="menu-item"><h3>Berry Boost</h3><p>Strawberry, banana & beetroot – sweet with a vitamin kick</p><span>KES 160</span></div>
-            <div class="menu-item"><h3>Zesty Zen</h3><p>Orange, lemon & mint – citrusy and calming</p><span>KES 120</span></div>
-            <div class="menu-item"><h3>Purple Power</h3><p>Grapes, blueberries & chia – antioxidant-rich and smooth</p><span>KES 180</span></div>
-            <div class="menu-item"><h3>Tropical Twist</h3><p>Passion fruit, watermelon & lime – juicy and tangy</p><span>KES 140</span></div>
-            <div class="menu-item"><h3>Spice Rush</h3><p>Carrot, orange & cayenne – bold and immune-boosting</p><span>KES 130</span></div>
-            <div class="menu-item"><h3>Avocado Dream</h3><p>Avocado, banana & honey – creamy and filling</p><span>KES 170</span></div>
-            <div class="menu-item"><h3>Uji Fusion</h3><p>Banana, oats & cinnamon – breakfast-style smoothie</p><span>KES 150</span></div>
-            <div class="menu-item"><h3>Classic Blend</h3><p>Seasonal fruits mix – budget-friendly and always fresh</p><span>KES 100</span></div>
-        </div>
+    <section id="about" class="section about container">
+      <h2>About Us</h2>
+      <p>At Blends by You Co., we craft fresh, delicious fruit juices made from 100% natural ingredients. Our mission is to bring you healthy, flavorful blends that refresh and energize you.</p>
     </section>
 
-    <section class="contact" id="contact">
-        <h2>Contact Us</h2>
-        <p>Prefer to talk? Call or WhatsApp us at <a href="tel:+254748268795">+254 748 268795</a></p>
-        <p>Email: <a href="mailto:blendbyyou020@gmail.com">blendbyyou020@gmail.com</a></p>
-        <a href="tel:+254748268795" class="btn">Call to Order</a>
+    <section id="menu" class="section container">
+      <h2 class="section-title">Signature Juices</h2>
+      <div class="cards">
+
+        <article class="card">
+          <img src="assets/drinks/sunburst_glow.svg" alt="Sunburst Glow" class="card-img"/>
+          <h3>Sunburst Glow</h3>
+          <p>Mango, pineapple & ginger – tropical and energizing</p>
+          <div class="card-footer"><span class="price">KES 150</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/green_vibe.svg" alt="Green Vibe" class="card-img"/>
+          <h3>Green Vibe</h3>
+          <p>Spinach, apple & kiwi – refreshing detox blend</p>
+          <div class="card-footer"><span class="price">KES 130</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/berry_boost.svg" alt="Berry Boost" class="card-img"/>
+          <h3>Berry Boost</h3>
+          <p>Strawberry, banana & beetroot – sweet with a vitamin kick</p>
+          <div class="card-footer"><span class="price">KES 160</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/zesty_zen.svg" alt="Zesty Zen" class="card-img"/>
+          <h3>Zesty Zen</h3>
+          <p>Orange, lemon & mint – citrusy and calming</p>
+          <div class="card-footer"><span class="price">KES 120</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/purple_power.svg" alt="Purple Power" class="card-img"/>
+          <h3>Purple Power</h3>
+          <p>Grapes, blueberries & chia – antioxidant-rich and smooth</p>
+          <div class="card-footer"><span class="price">KES 180</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/tropical_twist.svg" alt="Tropical Twist" class="card-img"/>
+          <h3>Tropical Twist</h3>
+          <p>Passion fruit, watermelon & lime – juicy and tangy</p>
+          <div class="card-footer"><span class="price">KES 140</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/spice_rush.svg" alt="Spice Rush" class="card-img"/>
+          <h3>Spice Rush</h3>
+          <p>Carrot, orange & cayenne – bold and immune-boosting</p>
+          <div class="card-footer"><span class="price">KES 130</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/avocado_dream.svg" alt="Avocado Dream" class="card-img"/>
+          <h3>Avocado Dream</h3>
+          <p>Avocado, banana & honey – creamy and filling</p>
+          <div class="card-footer"><span class="price">KES 170</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/uji_fusion.svg" alt="Uji Fusion" class="card-img"/>
+          <h3>Uji Fusion</h3>
+          <p>Banana, oats & cinnamon – breakfast-style smoothie</p>
+          <div class="card-footer"><span class="price">KES 150</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+    
+        <article class="card">
+          <img src="assets/drinks/classic_blend.svg" alt="Classic Blend" class="card-img"/>
+          <h3>Classic Blend</h3>
+          <p>Seasonal fruits mix – budget-friendly and always fresh</p>
+          <div class="card-footer"><span class="price">KES 100</span><a class="btn small" href="tel:+254748268795">Call to Order</a></div>
+        </article>
+          </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Blends by You Co. All Rights Reserved.</p>
-    </footer>
+    <section id="contact" class="section container contact">
+      <h2>Contact</h2>
+      <p>Prefer to talk? Call or WhatsApp us at <a href="tel:+254748268795">+254 748 268795</a>.</p>
+      <p>Email: <a href="mailto:blendbyyou020@gmail.com">blendbyyou020@gmail.com</a></p>
+      <p>Location: Nairobi (replace with your full address)</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img src="assets/logo.svg" alt="logo" style="height:36px; vertical-align:middle"/>
+      <p>&copy; Blends by You Co. — Your Taste, Your Blend.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a class="whatsapp-btn" href="https://wa.me/254748268795" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.52 3.48C18.36 1.32 15.6 0 12.6 0 5.64 0 .6 5.04.6 12.6c0 2.16.6 4.2 1.74 6.06L0 24l5.46-1.68C8.28 23.28 10.38 24 12.6 24 19.56 24 24.6 18.96 24.6 11.4c0-3-1.32-5.76-3.48-7.92z" fill="#25D366"/>
+      <path d="M17.4 14.04c-.36-.18-2.16-1.08-2.52-1.2-.36-.12-.6-.18-.84.18-.24.36-.96 1.2-1.2 1.44-.24.24-.48.27-.84.09-.36-.18-1.56-.57-2.96-1.83-.96-.84-1.62-1.86-1.81-2.22-.18-.36-.02-.54.16-.72.16-.16.36-.42.54-.63.18-.21.24-.36.36-.6.12-.24.06-.48-.03-.66-.09-.18-.84-2.04-1.14-2.78-.3-.72-.6-.63-.84-.64-.24 0-.51 0-.78 0-.27 0-.66.09-1.01.45-.36.36-1.38 1.35-1.38 3.3 0 1.95 1.42 3.84 1.62 4.11.18.24 2.82 4.44 6.84 6.06 4.02 1.62 4.02 1.08 4.74 1.02.72-.06 2.28-.93 2.6-1.83.36-1.02.36-1.89.252-2.07-.108-.18-.396-.27-.78-.45z" fill="#fff"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>

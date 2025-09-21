@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <g transform="translate(40,20)">
+    <rect x="0" y="80" width="720" height="460" rx="30" fill="#fff" stroke="#f0f0f0"/>
+    <rect x="90" y="120" width="540" height="360" rx="24" fill="url(#g)"/>
+    <defs>
+      <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0" stop-color="#cbb3ff"/>
+        <stop offset="1" stop-color="#7a4bd6"/>
+      </linearGradient>
+    </defs>
+    <ellipse cx="360" cy="140" rx="200" ry="30" fill="#ffffff" opacity="0.6"/>
+    <g transform="translate(40,500)">
+      <text x="0" y="0" font-family="Segoe UI, Arial" font-size="28" fill="#333" font-weight="700">Purple Power</text>
+    </g>
+  </g>
+</svg>
