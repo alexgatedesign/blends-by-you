@@ -1,4 +1,16 @@
-body { font-family: Arial, sans-serif; margin: 20px; }
-.blend-list { display: flex; flex-wrap: wrap; gap: 20px; }
-.blend-item { border: 1px solid #ddd; padding: 10px; width: 220px; text-align: center; }
-.blend-item img { width: 100%; height: auto; }
+
+body { font-family: 'Poppins', sans-serif; margin:0; padding:0; background:#FFF8F0; }
+header { display:flex; justify-content:space-between; align-items:center; padding:10px 20px; background:#32CD32; color:#fff; position:sticky; top:0; z-index:1000; }
+nav a { margin: 0 10px; color:#fff; text-decoration:none; }
+.order-btn { background:#FF7F50; padding:8px 15px; border-radius:5px; color:#fff; text-decoration:none; }
+.hero { text-align:center; padding:50px 20px; background:#FFEFD5; }
+.hero-buttons a { margin:10px; padding:10px 20px; border-radius:5px; text-decoration:none; }
+.explore-btn { background:#FF7F50; color:#fff; }
+.call-btn { background:#32CD32; color:#fff; }
+.blend-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; padding:20px; }
+.juice-card { border:1px solid #ddd; border-radius:15px; padding:10px; background:#fff; text-align:center; position:relative; overflow:hidden; }
+.juice-card img { width:100%; border-radius:10px; }
+.juice-video { width:100%; height:auto; position:absolute; top:0; left:0; opacity:0; transition:opacity 0.3s; }
+.juice-card:hover .juice-video { opacity:0.6; }
+.testimonials, .how-it-works, .contact { padding:40px 20px; text-align:center; }
+footer { background:#32CD32; color:#fff; padding:20px; text-align:center; }

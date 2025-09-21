@@ -1,71 +1,157 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blends by You Co.</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blends by You</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo"><img src="assets/logo.svg" alt="Blends by You Logo"></div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#menu">Menu</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a href="#contact" class="cta">Order Online</a>
-  </header>
+<header class="sticky-header">
+  <div class="logo">Blends by You</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <a href="#" class="order-btn">Order Online</a>
+</header>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Your Taste, Your Blend</h1>
-      <p>Customize your fruit juice. Healthy and made just for you.</p>
-      <div class="buttons">
-        <a href="#menu" class="btn orange">Explore Menu</a>
-        <a href="tel:+254748268795" class="btn green">Call Now</a>
-      </div>
+<section class="hero">
+  <h1>Your Taste, Your Blend</h1>
+  <p>Customize your fruit juice. Healthy and made just for you.</p>
+  <div class="hero-buttons">
+    <a href="#" class="explore-btn">Explore Menu</a>
+    <a href="tel:+254748268795" class="call-btn">Call Now</a>
+  </div>
+</section>
+
+<section id="best-selling-blends">
+  <h2>Our Best-Selling Blends</h2>
+  <div class="blend-grid">
+
+    <div class="juice-card">
+      <img src="images/blends/mango-pineapple-glow.jpg" alt="mango pineapple glow Juice">
+      <video autoplay muted loop class="juice-video" src="videos/mango-pineapple.mp4"></video>
+      <h3>mango pineapple glow</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
     </div>
-    <div class="hero-image">
-      <img src="assets/hero.svg" alt="Juice Hero">
+    
+    <div class="juice-card">
+      <img src="images/blends/passion-banana-boost.jpg" alt="passion banana boost Juice">
+      <video autoplay muted loop class="juice-video" src="videos/passion-banana.mp4"></video>
+      <h3>passion banana boost</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
     </div>
-  </section>
-
-  <section id="menu" class="menu">
-    <h2>Our Best-Selling Blends</h2>
-    <div class="menu-grid">
-      <div class="card"><img src="assets/drinks/mango-pineapple-glow.svg"><h3>Mango-Pineapple Glow</h3><p>Tropical sweetness with a vitamin C boost</p><span>KSh 150</span></div>
-      <div class="card"><img src="assets/drinks/passion-banana-boost.svg"><h3>Passion-Banana Boost</h3><p>Creamy, tangy, and energizing</p><span>KSh 130</span></div>
-      <div class="card"><img src="assets/drinks/watermelon-mint-chill.svg"><h3>Watermelon-Mint Chill</h3><p>Refreshing and hydrating</p><span>KSh 140</span></div>
-      <div class="card"><img src="assets/drinks/sunburst-glow.svg"><h3>Sunburst Glow</h3><p>Mango, pineapple & ginger – tropical and energizing</p><span>KSh 150</span></div>
-      <div class="card"><img src="assets/drinks/green-vibe.svg"><h3>Green Vibe</h3><p>Spinach, apple & kiwi – refreshing detox blend</p><span>KSh 130</span></div>
-      <div class="card"><img src="assets/drinks/berry-boost.svg"><h3>Berry Boost</h3><p>Strawberry, banana & beetroot – sweet with a vitamin kick</p><span>KSh 160</span></div>
-      <div class="card"><img src="assets/drinks/zesty-zen.svg"><h3>Zesty Zen</h3><p>Orange, lemon & mint – citrusy and calming</p><span>KSh 120</span></div>
-      <div class="card"><img src="assets/drinks/purple-power.svg"><h3>Purple Power</h3><p>Grapes, blueberries & chia – antioxidant-rich and smooth</p><span>KSh 180</span></div>
-      <div class="card"><img src="assets/drinks/avocado-dream.svg"><h3>Avocado Dream</h3><p>Avocado, banana & honey – creamy and filling</p><span>KSh 170</span></div>
-      <div class="card"><img src="assets/drinks/uji-fusion.svg"><h3>Uji Fusion</h3><p>Banana, oats & cinnamon – breakfast-style smoothie</p><span>KSh 150</span></div>
+    
+    <div class="juice-card">
+      <img src="images/blends/berry-beet-blast.jpg" alt="berry beet blast Juice">
+      <video autoplay muted loop class="juice-video" src="videos/berry-beet.mp4"></video>
+      <h3>berry beet blast</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
     </div>
-  </section>
+    
+    <div class="juice-card">
+      <img src="images/blends/green-detox.jpg" alt="green detox Juice">
+      <video autoplay muted loop class="juice-video" src="videos/green-detox.mp4"></video>
+      <h3>green detox</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
+    </div>
+    
+    <div class="juice-card">
+      <img src="images/blends/tropical-mango.jpg" alt="tropical mango Juice">
+      <video autoplay muted loop class="juice-video" src="videos/tropical-mango.mp4"></video>
+      <h3>tropical mango</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
+    </div>
+    
+    <div class="juice-card">
+      <img src="images/blends/berry-boost.jpg" alt="berry boost Juice">
+      <video autoplay muted loop class="juice-video" src="videos/berry-boost.mp4"></video>
+      <h3>berry boost</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
+    </div>
+    
+    <div class="juice-card">
+      <img src="images/blends/citrus-fusion.jpg" alt="citrus fusion Juice">
+      <video autoplay muted loop class="juice-video" src="videos/citrus-fusion.mp4"></video>
+      <h3>citrus fusion</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
+    </div>
+    
+    <div class="juice-card">
+      <img src="images/blends/pineapple-kiwi.jpg" alt="pineapple kiwi Juice">
+      <video autoplay muted loop class="juice-video" src="videos/pineapple-kiwi.mp4"></video>
+      <h3>pineapple kiwi</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
+    </div>
+    
+    <div class="juice-card">
+      <img src="images/blends/strawberry-spinach.jpg" alt="strawberry spinach Juice">
+      <video autoplay muted loop class="juice-video" src="videos/strawberry-spinach.mp4"></video>
+      <h3>strawberry spinach</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
+    </div>
+    
+    <div class="juice-card">
+      <img src="images/blends/blueberry-bliss.jpg" alt="blueberry bliss Juice">
+      <video autoplay muted loop class="juice-video" src="videos/blueberry-bliss.mp4"></video>
+      <h3>blueberry bliss</h3>
+      <p>Delicious and refreshing blend</p>
+      <p><strong>KSh 130</strong></p>
+    </div>
+    
+  </div>
+</section>
 
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>At Blends by You Co., we craft fresh, delicious fruit juices made from 100% natural ingredients. 
-       Our mission is to bring you healthy, flavorful blends that refresh and energize you.</p>
-  </section>
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial-list">
+    <div class="testimonial"><p>"Amazing taste!"</p><p>- Jane</p></div>
+    <div class="testimonial"><p>"Best juice ever."</p><p>- Mark</p></div>
+    <div class="testimonial"><p>"Fresh and healthy."</p><p>- Lisa</p></div>
+  </div>
+</section>
 
-  <section id="contact" class="contact">
-    <h2>Let's Stay Connected</h2>
-    <p>📞 Phone: 0748268795</p>
-    <p>🌍 Location: Mombasa, Utange</p>
-    <p>📲 WhatsApp: <a href="https://wa.me/254748268795">Chat with us</a></p>
-    <p>📧 Email: hello@blendsbyyou.co.ke</p>
-  </section>
+<section class="how-it-works">
+  <h2>How to Get Your Blend</h2>
+  <ol>
+    <li>Choose your juice</li>
+    <li>Customize ingredients</li>
+    <li>Place your order</li>
+    <li>Delivered fresh to your door</li>
+  </ol>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Blends by You Co. All rights reserved.</p>
-  </footer>
+<section class="contact">
+  <h2>Let's Stay Connected</h2>
+  <p><a href="https://wa.me/254748268795?text=Hi%20Blends%20by%20You%2C%20I%20want%20to%20order%20juice">WhatsApp Us</a></p>
+  <p>Instagram: @blendsbyyou</p>
+  <p>Email: hello@blendsbyyou.co.ke</p>
+  <p>Phone: 0748268795</p>
+</section>
 
-  <script src="script.js"></script>
+<footer>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <p>© 2025 Blends by You. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
